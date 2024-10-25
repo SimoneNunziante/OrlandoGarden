@@ -1,0 +1,12 @@
+.navbar-brand > img{
+    width: 15%;
+    height: auto;
+    display: block;
+}
+
+.nav-link{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+

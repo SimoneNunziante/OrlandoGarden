@@ -1,0 +1,92 @@
+h3 {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.why {
+    padding-top: 20px;
+}
+
+.why > p{
+    text-align: center;
+    padding: 0 5%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 0 2%;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    position: relative;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5% 2% 5% 0;
+    height: 350px;
+    perspective: 1000px;
+    scroll-snap-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 80vw;
+    overflow: hidden;
+}
+
+.card-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.foto {
+    width: 40%; /* Usa vw per rendere la dimensione della foto adattabile ai diversi schermi */
+    max-width: 100px; /* Limite massimo per evitare che diventi troppo grande */
+    height: 40%;
+    max-height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.content {
+    margin-top: 10px;
+    overflow-y: auto;
+    text-align: justify;
+    padding: 5px;
+    width: 100%;
+    height: calc(100% - 60px); /* Occupa lo spazio rimanente sotto la foto */
+    box-sizing: border-box;
+    flex-grow: 1;
+    white-space: normal;
+}
+
+.content > p{
+    text-align: center;
+}
