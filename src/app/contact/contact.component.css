@@ -1,0 +1,52 @@
+.container{
+    margin-top: 10%;
+    border-top: 2px solid black;
+}
+
+h3{
+    text-align: center;
+    padding-top: 25px;
+}
+
+.contact-list{
+    display: flex;
+    justify-content: space-around;
+    margin: 8% auto;
+}
+
+.contact-list > li{
+    display: block;
+}
+
+.sprite{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: 0 0; 
+    /*
+    background-position: -32px 0; in desktop
+    */
+}
+
+#email{
+    background-image: url('/assets/icons/sprite-email.png');
+}
+
+#instagram {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url('/assets/icons/sprite-instagram2.png');
+    background-repeat: no-repeat;
+    background-size: 64px 32px; /* Ridimensiona l'intero sprite a 32x32 */
+    background-position: 0 0; /* Posiziona la visualizzazione sulla prima immagine */
+}
+
+
+/*
+.sprite:hover{
+    background-position: 0 0; 
+}
+    in desktop
+*/
