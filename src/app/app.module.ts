@@ -10,6 +10,7 @@ import { CardsComponent } from './cards/cards.component';
 import { ServicesComponent } from './services/services.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
     CardsComponent,
     ServicesComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    PrivacyPolicyComponent
   ],
   imports: [
     BrowserModule,

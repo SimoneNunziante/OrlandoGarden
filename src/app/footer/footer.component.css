@@ -1,0 +1,10 @@
+.container{
+    background-color: rgb(33, 37, 41);
+    padding: 10px;
+}
+
+.content{
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+}
